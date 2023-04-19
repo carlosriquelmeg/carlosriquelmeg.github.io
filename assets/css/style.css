@@ -1,3 +1,50 @@
 body{
-    background-color: red;
+    width: 1200px;
+    height: auto;
+    background-color: #f0f0f0;
+    font-family: "Londrina Solid", sans-serif;
+    margin: 100px;
+
 }
+
+h1{
+    color: #32a287;
+    font-family: "Londrina Solid", sans-serif;
+    text-align: center;
+}
+
+h2,h3{
+    color: rosybrown;
+    text-align: center;
+}
+
+.foto_perfil{
+    width:200px;
+    border-radius:150px;
+}
+
+#foto-perfil{
+    width: 200px;
+    height: 200px;
+    background-image:url(../img/foto_ejercicio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px 5% / 20px 25em 30px 35em;
+    margin: auto;
+}
+
+#resumen{
+margin: auto;
+text-align: justify;
+}
+
+#datos_personales{
+    margin: auto;
+    text-align: center;    
+}
+
+#datos_personales li{
+    font-size: 20px;
+    list-style: square inside;
+}
+
